@@ -1,0 +1,139 @@
+.navbar{
+    background-color: rgb(241, 255, 221);
+    font-family: "Montserrat";
+    font-weight: bold; 
+}
+
+.navbar:focus{
+    outline: none;
+    background-color: rgb(176,224,230);
+    border-radius: 5px;
+}
+
+.navbar-brand{
+    margin-left: 25px;
+}
+
+.navbar-nav{
+    margin-right: 60px;
+}
+
+
+
+.top{
+    background-color: rgb(255, 250, 228);
+    background-image: url("../imagens/217da299cc918fad9b76eb99e4bb75b3.gif");
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+
+}
+
+.texto__titulo{
+    color: rgb(247, 255, 237);
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight:bolder;
+   text-align: center;
+   padding: 18%;
+}
+
+.titulo{
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin: 0;
+}
+
+hr{
+    margin: 0;
+    padding: 0%;
+}
+
+.texto{   
+    font-family: "Prompt";
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+.margem{
+    padding-top: 30px;
+    text-align:  center;
+}
+
+.margem-top{
+    padding-top: 40px ;
+}
+
+.texto__fala{
+    font-family: "Prompt";
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.icone-aspas{
+    width: 30px;
+}
+
+.icone-aspas-2{
+    width: 15px;
+}
+
+.primeira__foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.carousel{
+    width: 55%;
+    height: 55%;
+}
+
+.segunda__foto{
+    width: 102%;
+}
+
+#video{
+    width: 50vw;
+    height: 70vh;
+}
+
+.footer{
+    
+    width: 100%;
+    height: 60px;
+    background-color: rgb(241, 255, 221);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    margin: 0;
+    
+}
+
+.footer__texto {
+    font-family: "Prompt";
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(38, 36, 36);
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.footer:focus{
+    outline: none;
+    background-color: rgb(176,224,230);
+    border-radius: 5px;
+}
+
+.link{
+    color: rgb(255, 0, 149)
+}
